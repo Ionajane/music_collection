@@ -9,8 +9,8 @@ class SqlRunner
     })
     db.prepare('question', sql)
     results = db.exec_prepared('question', values)
-    db.close()
 
+    db.close()
     return results
   end
 

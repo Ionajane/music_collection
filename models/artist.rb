@@ -16,11 +16,5 @@ class Artist
     results = SqlRunner.run(sql, [@name])
     @id = results[0]['id'].to_i()
   end
-
-
-
-
-
-
-
+  
 end
